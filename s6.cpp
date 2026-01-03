@@ -16,15 +16,17 @@ else if (score>=71){
 else if (score>=63) {
 		printf("D\n");
 	}
+else if (score>=12){
+	printf("F\n");
+}
 else if (score<0){
 	printf("Error\n");
 }
 
- else{
-	printf("F\n");
-}
+ 
 
 
 
 return 0;
 }
+
